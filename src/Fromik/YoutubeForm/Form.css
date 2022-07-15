@@ -1,0 +1,48 @@
+#main{
+    position: relative;
+}
+
+#form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    width: 380px;
+    /* height: 400px; */
+    background-color: #d8e8e6;
+}
+label{
+    font-size: 30px;
+}
+input{
+    width: 360px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+}
+#btn{
+    width: 360px;
+    height: 40px;
+   
+}
+.form-control{
+margin-bottom: 10px;
+}
+.error{
+    color: red;
+}
+textarea{
+    width: 360px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+}
