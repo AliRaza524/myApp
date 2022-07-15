@@ -4,6 +4,7 @@ import TextError from './TextError'
 import './FormikContainer.css'
 
 function Input(props)  {
+  console.log("hello git")
     const {label,name,...rest}=props
   return (
     <div className='form-control'>
